@@ -2,8 +2,13 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Farm Tracker',
-  description: 'Track your bell pepper farm',
+  title: 'Farm Tracker - Bell Pepper Management',
+  description: 'Track your bell pepper farm with weather monitoring and data management',
+  viewport: {
+    width: 'device-width',
+    initialScale: 1,
+    maximumScale: 1,
+  },
 }
 
 export default function RootLayout({
@@ -13,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
+      <body className="bg-gray-50">
         {children}
       </body>
     </html>
