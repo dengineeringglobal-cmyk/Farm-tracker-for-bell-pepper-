@@ -41,7 +41,10 @@ export default function Navbar() {
                 <Link href="/dashboard" className="text-gray-700 hover:text-blue-600 transition">
                   Dashboard
                 </Link>
-                <Link href="/data" className="text-gray-700 hover:text-blue-600 transition">
+                <Link href="/records" className="text-gray-700 hover:text-green-600 transition">
+                  Farm Records
+                </Link>
+                <Link href="/data" className="text-gray-700 hover:text-purple-600 transition">
                   Data Management
                 </Link>
                 <div className="flex items-center gap-4 pl-4 border-l">
@@ -73,7 +76,10 @@ export default function Navbar() {
             <Link href="/dashboard" className="block py-2 text-gray-700 hover:text-blue-600">
               Dashboard
             </Link>
-            <Link href="/data" className="block py-2 text-gray-700 hover:text-blue-600">
+            <Link href="/records" className="block py-2 text-gray-700 hover:text-green-600">
+              Farm Records
+            </Link>
+            <Link href="/data" className="block py-2 text-gray-700 hover:text-purple-600">
               Data Management
             </Link>
             <div className="border-t pt-4 mt-4">
